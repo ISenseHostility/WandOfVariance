@@ -1,61 +1,41 @@
-# Balm Mod Template
+# Wand of Variance
 
-This is a template project that can be used to setup a multi-loader Minecraft Mod development environment with Balm.
+[![CurseForge](https://img.shields.io/curseforge/dt/1251630?label=CurseForge)](https://www.curseforge.com/minecraft/mc-mods/wand-of-variance) [![Modrinth](https://img.shields.io/modrinth/dt/zX4H9Ytm?label=Modrinth)](https://modrinth.com/mod/wand-of-variance)
 
-The gradle setup is heavily based on [Jared's MultiLoader Template](https://github.com/jaredlll08/MultiLoader-Template).
+**Wand of Variance** is a Minecraft mod that empowers builders with a magical tool to add variety and texture to their structures effortlessly. With a simple cast, you can mix your building blocks based on a customizable selection, helping you achieve more natural and organic designs.
 
-## Getting Started
+The mod is designed with maximum compatibility in mind, using Balm for seamless multi-loader support (Fabric, Forge, NeoForge).
 
-- Click "Use this template" on GitHub to create a new repository based on this template.
-- Clone the repository to your local machine.
-- Open the project in IntelliJ IDEA.
-- Open `gradle.properties` and configure your mod's metadata.
-- Now that you've set a mod id, you should rename all instances of `yourmod` and `WandOfVariance` to your mod id / name, both
-  in code and in file names.
-- The majority of code lies in the `common` folder, while the mod-loader specific folders are only needed for
-  implementing third party mod compatibility.
-- The template includes a basic example for most of Balm's features. Delete parts that you don't need before releasing
-  your mod.
-- Don't forget to replace your mod's logo in `common/src/main/resources/yourmod-icon.png`.
+## ✨ Features
 
-If you need to add dependencies, do so in `dependencies.gradle`. I recommend leaving the `build.gradle` files untouched
-to make updating to newer versions of the template easier.
+- 🪄 **Wand of Variance**  
+  A powerful wand that lets you mix blocks based on a single replacer block. You can assign up to **five** different mix blocks to the wand and transform large areas with a click. Perfect for adding randomness and life to walls, floors, and landscapes.
 
-## Structure
+- ⚙️ **Configurable Settings**  
+  Customize the wand's functionality to fit your building needs:
+  - **Range**: Set how far away you can use the wand.
+  - **Radius**: Define the area size affected by each use.
 
-### gradle.properties
+  All settings are adjustable through the mod’s configuration file.
 
-Configure the mod's metadata as well as any mod loader or dependency versions in this file.
+## 🛠️ Compatibility
 
-Ideally, you should never make changes to `build.gradle` directly.
+Wand of Variance is built to work seamlessly alongside many popular building and decoration mods.
 
-### CHANGELOG.md
+It is fully compatible with:
 
-This file is used as a changelog for uploads to Modrinth and CurseForge.
+- 🔗 **Balm** – Used as the multi-loader foundation.
+- 🧱 **Mods that add new blocks** – The wand works with vanilla and modded blocks without issue.
+- 🏗️ **Creative Building Mods** – Enhance your builds naturally by mixing in block varieties.
 
-### LICENSE
+If you encounter any compatibility issues, feel free to report them through the issue tracker.
 
-You should replace this file with a license of your choice.
+## 📥 Download
 
-Unless you fully understand the implications of the license you choose, you should keep this as All Rights Reserved.
+You can download Wand of Variance from:
+- [CurseForge](https://www.curseforge.com/minecraft/mc-mods/wand-of-variance)
+- [Modrinth](https://modrinth.com/mod/wand-of-variance)
 
-### modpage.md
+---
 
-This is used for Modrinth's `modrinthSyncBody` gradle task, updating the Modrinth project page to match the Markdown
-file.
-
-### repositories.gradle
-
-This is where Maven repositories for fetching dependencies are configured.
-It is good practice to filter each repository to only the groups you expect to download from them.
-
-## Contributing
-
-If you're interested in contributing to the mod, you can check
-out [issues labelled as "help wanted"](https://github.com/TwelveIterationMods/balm-mod/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22).
-
-When it comes to new features, it's best to confer with me first to ensure we share the same vision. You can join us
-on [Discord](https://discord.gg/VAfZ2Nau6j) if you'd like to talk.
-
-Contributions must be done through pull requests. I will not be able to accept translations, code or other assets
-through any other channels.
+> "Build not just structures, but stories — one block at a time." ✨
